@@ -18,6 +18,6 @@ public class FootballStatsProducerModule implements CommandLineRunner {
 
   @Override
   public void run(String ...args)throws Exception{
-    footballStatsProducer.sendMessage();
+    footballStatsProducer.fetchDataAndSendMessage();
   }
 }
