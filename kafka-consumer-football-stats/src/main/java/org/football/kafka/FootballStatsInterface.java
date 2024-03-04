@@ -1,4 +1,4 @@
-package org.football.interfaces;
+package org.football.kafka;
 
 public interface FootballStatsInterface {
   void consumer(String message);
